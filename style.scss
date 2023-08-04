@@ -45,6 +45,10 @@ $blue: rgb(31, 31, 105);
       li:first-child {
         padding-right: 7%;
       }
+
+      .hamburger {
+        display: none;
+      }
     }
 
     .section_one_container {
@@ -356,6 +360,14 @@ $blue: rgb(31, 31, 105);
     .left_part {
       padding: 0 10%;
       margin-bottom: 3rem;
+
+      .nav_list {
+        display: flex;
+        justify-content: space-around;
+        .hamburger {
+          display: block;
+        }
+      }
 
       .nav_list li a {
         display: none;
